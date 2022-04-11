@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Rubik+Moonrocks&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Jim+Nightshade&family=Open+Sans:wght@300&family=Rubik+Moonrocks&family=Shadows+Into+Light&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+
+    font-family: 'Jim Nightshade', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.ContenedorTitulo{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(251, 251, 251, 0.3);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    position: relative;
+    top: 65px;
+    width: 100%;
+
+} 
+
+#fondo{
+   
+    background-image: url("../images/Pl3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+
+}
+
+#Titulo{
+    color:aliceblue;
+    display: flex;
+    width: 100%;
+}
+#Titulo h1{
+    float: left;
+}
+.ContenedorNav{
+    width: 100%;
+    margin: auto;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 22px;
+    
+}
+#Cabeza {
+    color:white;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgba(149,164,165,0.5);
+    padding: 5px;
+}
+#Cabeza h1{
+    float: left;
+}
+.menu{
+    float: right;
+    margin-top: 10px;
+    display: block;
+
+}
+.menu li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+
+}
+.menu li:hover ul{
+   display: block;
+}
+li ul li {
+    height: -145;
+    top:0px;
+    padding: 10px;
+}
+.menu a{
+    color:white;
+    text-align: none;
+    padding: 5px 10px;
+}
+.menu a:hover{
+    background-color: rgb(251, 251,251);
+}
+.ContenedorPrincipal{
+    font-weight: 60px;
+    font-size: 20px;
+}
+.ContenedorPrincipal a{
+    color:white;
+    text-decoration: none;
+    width: 10px;
+    padding: 5px 10px;
+
+}
+#Principal{
+    color:rgb(255, 255, 255);
+    margin: 200px;
+    font-family: op;
+    font-family: 'Shadows Into Light', cursive;
+    position: 600px;
+    padding: 10px;
+    top:55%
+    
+    
+}
+main{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+table img{
+    width: 850px;
+    height: 550px;
+}
+video{
+    width: 400px;
+    height: 250px;
+    margin: 50px;
+    float: right;
+   
+    }
